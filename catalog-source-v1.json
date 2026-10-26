@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "publisher": "line-management.curated",
+  "sequence": 1,
+  "issuedAt": "2026-10-26T00:00:00Z",
+  "expiresAt": "2026-11-29T15:00:00Z",
+  "carriers": [
+    {
+      "id": "BD4C3590-21B7-4D68-A900-000000000002",
+      "name": "ahamo",
+      "category": "mobile",
+      "operatorName": "株式会社NTTドコモ",
+      "sourceURL": "https://ahamo.com/plan/",
+      "verifiedAt": "2026-10-26T00:00:00Z"
+    },
+    {
+      "id": "BD4C3590-21B7-4D68-A900-000000000012",
+      "name": "日本通信SIM",
+      "category": "mobile",
+      "operatorName": "日本通信株式会社",
+      "sourceURL": "https://www.nihontsushin.com/service/",
+      "verifiedAt": "2026-10-26T00:00:00Z"
+    },
+    {
+      "id": "BD4C3590-21B7-4D68-A900-000000000102",
+      "name": "ahamo光",
+      "category": "fixed",
+      "operatorName": "株式会社NTTドコモ",
+      "sourceURL": "https://nttdocomo-ssw.com/nssw/dhkr/hikari/",
+      "verifiedAt": "2026-10-26T00:00:00Z"
+    }
+  ],
+  "plans": [
+    {
+      "id": "BD4C3770-21B7-4D68-A900-000000000001",
+      "carrierID": "BD4C3590-21B7-4D68-A900-000000000002",
+      "name": "ahamo（2026年11月まで）",
+      "monthlyPriceYen": 2970,
+      "dataAllowance": "30GB／月",
+      "voiceConditions": "国内1回5分以内無料。超過22円／30秒。対象外通話あり。",
+      "discountConditions": "割引・追加オプションを含まない基本料金。",
+      "billingRuleNote": "税込。2026年12月1日改定の公式告知あり。改定後料金は別途確認し、既存契約は自動変更しない。",
+      "effectiveFrom": null,
+      "effectiveTo": "2026-11-30T14:59:59Z",
+      "availability": "accepting",
+      "sourceURL": "https://ahamo.com/plan/",
+      "verifiedAt": "2026-10-26T00:00:00Z"
+    },
+    {
+      "id": "BD4C3770-21B7-4D68-A900-000000000002",
+      "carrierID": "BD4C3590-21B7-4D68-A900-000000000012",
+      "name": "合理的シンプル290プラン",
+      "monthlyPriceYen": 290,
+      "dataAllowance": "1GB込み。追加1GBあたり220円。",
+      "voiceConditions": "無料通話なし。国内11円／30秒。通話定額は別料金。",
+      "discountConditions": "割引・通話オプションを含まない基本料金。",
+      "billingRuleNote": "税込。利用量に応じた追加データ料金、初期費用、対象外通話等は公式情報を確認。",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "availability": "accepting",
+      "sourceURL": "https://www.nihontsushin.com/service/",
+      "verifiedAt": "2026-10-26T00:00:00Z"
+    },
+    {
+      "id": "BD4C3770-21B7-4D68-A900-000000000003",
+      "carrierID": "BD4C3590-21B7-4D68-A900-000000000102",
+      "name": "ahamo光 1ギガ マンション（2年定期契約）",
+      "monthlyPriceYen": 3630,
+      "dataAllowance": "通信速度：最大1Gbps（ベストエフォート）",
+      "voiceConditions": "光電話等は別途確認。",
+      "discountConditions": "ahamo契約が必要。特典・工事費・ルーター等を月額基本料金へ含めない。",
+      "billingRuleNote": "税込。回線・専用プロバイダ込み。2年定期契約、自動更新・解約条件あり。利用には対応ルーターが必要。",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "availability": "accepting",
+      "sourceURL": "https://nttdocomo-ssw.com/nssw/dhkr/hikari/",
+      "verifiedAt": "2026-10-26T00:00:00Z"
+    }
+  ]
+}
